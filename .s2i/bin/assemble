@@ -1,0 +1,11 @@
+#!/bin/bash
+######## CUSTOMIZATION STARTS HERE ############
+
+echo "---> Installing application source"
+cp -Rf /tmp/src/*.html ./
+
+DATE=`date "+%F"`
+echo "$DATE BADBOY AND DevOps Genny ROCKS out Loud" >>  ./info.html
+
+# Fix source directory permissions
+fix-permissions ./
