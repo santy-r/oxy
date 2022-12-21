@@ -3,10 +3,6 @@
 set -e
 
 
-echo "---> Enabling s2i support in httpd24 image"
-
-config_s2i
-
 ######## CUSTOMIZATION STARTS HERE ############
 
 echo "---> Installing application source"
