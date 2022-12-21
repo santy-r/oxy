@@ -15,7 +15,7 @@ cp -Rf /tmp/src/*.html ./
 DATE=`date "+%F"`
 
 echo "---> Creating info page"
-echo "$DATE HELLO World Server is build by TEAM GEENY >> ./info.html
+echo "$DATE HELLO World Server is build by TEAM GEENY" >> ./info.html
 echo "Proudly served by Apache HTTP Server version by DevOps Gennys $HTTPD_VERSION" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
