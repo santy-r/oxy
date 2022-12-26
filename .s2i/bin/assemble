@@ -6,14 +6,14 @@ set -e
 ######## CUSTOMIZATION STARTS HERE ############
 
 echo "---> Installing application source"
-cp -Rf /tmp/src/*.html ./
+cp -Rf /tmp/src/*.html /var/www/html
 
 DATE=`date "+%F"`
 
 echo "---> Creating info page"
-echo "Welcome to WEB" > ./index.html
-echo "$DATE HELLO World Server is build by TEAM GEENY on exam day" >> ./info.html
-echo "Proudly served by Apache HTTP Server version by DevOps Gennys $HTTPD_VERSION" >> ./info.html
+echo "Welcome to WEB" > /var/www/html/index.html
+echo "$DATE HELLO World Server is build by TEAM GEENY on exam day" >> /var/www/html/info.html
+echo "Proudly served by Apache HTTP Server version by DevOps Gennys $HTTPD_VERSION" >> /var/www/html/info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
