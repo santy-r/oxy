@@ -6,7 +6,7 @@ set -e
 ######## CUSTOMIZATION STARTS HERE ############
 
 echo "---> Installing application source"
-cp -Rf /tmp/src/*.hmtl ./
+cp -Rf /tmp/src/*.html ./
 
 DATE=`date +%F`
 
