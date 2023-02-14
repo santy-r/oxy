@@ -10,8 +10,8 @@ echo "---> Installing application source"
 cp -Rf /tmp/src/*.html  ./
 DATE=`date "+%F"`
 echo "---> Creating info page"
-echo "Welcome to WEB" > /var/www/html/index.html
-echo "$DATE HELLO World Server is build by TEAM GEENY on exam day team is looking for prayers to pass exam " >> /var/www/html/info.html
+echo "Welcome to WEB HOME" > /var/www/html/index.html
+echo "$DATE HELLO World Server is build by Rays " >> /var/www/html/info.html
 echo "Proudly served by Apache HTTP Server version by DevOps Gennys $HTTPD_VERSION" >> /var/www/html/info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
