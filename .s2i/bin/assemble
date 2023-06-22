@@ -7,7 +7,7 @@ set -e
 
 echo "---> Installing application source"
 
-cp /tmp/src/*.html /var/wwww/html
+cp /tmp/src/*.html /var/www/html
 DATE=`date "+%F"`
 echo "---> Creating info page"
 #echo "Welcome to WEB HOME" > ./index.html
