@@ -11,9 +11,8 @@ cp /tmp/src/*.html /var/www/html
 DATE=`date "+%F"`
 echo "---> Creating info page"
 #echo "Welcome to WEB HOME" > ./index.html
-echo "$DATE HELLO World Server is build by Rays " >> /var/www/html/info.html
-#echo "Proudly served by Apache HTTP Server version by DevOps Gennys $HTTPD_VERSION" >> ./info.html
-
+echo "Welcome to WEB HOME" > /var/www/html/index.html
+echo "$DATE is the exam date, best of luck boy!" >> /var/www/html/info.html
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
