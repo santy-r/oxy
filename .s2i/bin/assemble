@@ -6,9 +6,10 @@ set -e
 ######## CUSTOMIZATION STARTS HERE ############
 
 echo "---> Installing application source"
-cp /tmp/src/*.html /var/www/html
-DATE=`date "+%F"`
-echo "$DATE Today it's exam day" >> /var/www/html/info.html
+
+cp -Rf /tmp/src/*./html ./
+DATE= `date "+%F"`
+echo "$DATE Today it's Exam" > ./info.html
 echo "---> Creating info page"
 #echo "Welcome to WEB HOME" > ./index.html
 echo "Welcome to WEB HOME" > /var/www/html/index.html
