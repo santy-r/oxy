@@ -4,9 +4,12 @@ set -e
 
 
 ######## CUSTOMIZATION STARTS HERE ############
-cp -Rf /tmp/src/.*html ./
-DATE=`date "+%F"`
-echo "$DATE This is exam" >> ./index.html
+#cp -Rf /tmp/src/.*html ./
+cp -Rf /tmp/src/*.html ./
+#DATE=`date "+%F"`
+DATE='date "+%F"'
+#echo "$DATE This is exam" >> ./index.html
+echo "This is the exam date - $DATE" >> ./index.html
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
