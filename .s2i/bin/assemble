@@ -5,7 +5,7 @@ set -e
 
 ######## CUSTOMIZATION STARTS HERE ############
 #cp -Rf /tmp/src/.*html ./
-cp -Rf /tmp/src/.*html ./
+cp -Rf /tmp/src/*.html ./
 #DATE=`date "+%F"`
 DATE='date "+%F"'
 #echo "$DATE This is exam" >> ./index.html
