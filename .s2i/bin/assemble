@@ -9,7 +9,7 @@ cp -Rf /tmp/src/*.html ./
 #DATE=`date "+%F"`
 DATE='date "+%F"'
 #echo "$DATE This is exam" >> ./index.html
-echo "This is the exam date - $DATE" >> ./index.html
+echo "This is the exam date - $DATE" >> /var/www/html/index.html
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
